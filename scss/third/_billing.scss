@@ -1,0 +1,69 @@
+.billing{
+    position: absolute;
+    width: 650px;
+    height: 200px;
+    background-color: white;
+    top: 370px;
+    left: 150px;
+        h1{
+            font-size: 28px;
+            margin-top: 30px;
+            margin-left: 28px;
+        }
+        .button1{
+            display: inline-block;
+            position: absolute;
+            width: 650px;
+            margin-left: 28px;
+            height: 40px;
+            margin-top: 30px;
+             input{
+                 position: absolute;
+                 display: inline-block;
+                 width: 20px;
+                 height: 20px;
+             }
+             p{
+                 position: absolute;
+                 margin-left: 35px;
+                 margin-top: 3px;
+                 font-size: 14px;
+                 
+             }
+        }
+        .button2{
+            display: inline-block;
+            position: absolute;
+            width: 650px;
+            height: 40px;
+            margin-top: 95px;
+             input{
+                 position: absolute;
+                 display: inline-block;
+                 width: 20px;
+                 height: 20px;
+                 margin-left: 28px;
+                    // &:hover{
+                    //     cursor: pointer;
+                    // }
+             }
+             p{
+                 position: absolute;
+                 margin-left: 60px;
+                 margin-top: 3px;
+                 font-size: 14px;
+             }
+        }
+        .button1::after{
+            content: "";
+            top: 45px;
+            position: absolute;
+            width: 650px;
+            height: 1px;
+            background-color: rgb(202, 199, 199);
+        }
+    box-shadow: 4px  3px 4px rgb(233, 236, 240),
+                4px -3px 4px rgb(233, 236, 240),
+                4px  3px 4px rgb(233, 236, 240),
+               -4px  3px 4px rgb(233, 236, 240);
+}

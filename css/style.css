@@ -1,0 +1,312 @@
+.costs {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  top: 60px;
+  left: 830px;
+  box-shadow: 4px 3px 8px #e9ecf0, 4px -3px 8px #e9ecf0, 4px 3px 8px #e9ecf0, -4px 3px 8px #e9ecf0;
+}
+.costs .pic {
+  display: inline-block;
+  position: absolute;
+  width: 45px;
+  height: 40px;
+  border: 1px solid #dad7d7;
+  margin: 28px;
+  border-radius: 4px;
+}
+.costs img {
+  width: 30px;
+  height: 25px;
+  padding: 7px;
+}
+.costs .two {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-top: 20px;
+  left: 65px;
+}
+.costs .two p {
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+.costs .chocolate {
+  position: absolute;
+  margin-top: 42px;
+  margin-left: 95px;
+  font-size: 15px;
+}
+.costs .pic::after {
+  content: "";
+  position: absolute;
+  width: 340px;
+  height: 1px;
+  background-color: #e0dbdb;
+  top: 60px;
+  left: 0px;
+}
+.costs .subtotal {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 28px;
+  font-size: 13px;
+}
+.costs .shipping {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 28px;
+  font-size: 13px;
+}
+.costs .shipping::after {
+  content: "";
+  position: absolute;
+  width: 340px;
+  height: 1px;
+  background-color: #e0dbdb;
+  top: 40px;
+  left: 0px;
+}
+.costs .total {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 28px;
+  font-size: 15px;
+}
+
+.billing {
+  position: absolute;
+  width: 650px;
+  height: 200px;
+  background-color: white;
+  top: 370px;
+  left: 150px;
+  box-shadow: 4px 3px 4px #e9ecf0, 4px -3px 4px #e9ecf0, 4px 3px 4px #e9ecf0, -4px 3px 4px #e9ecf0;
+}
+.billing h1 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-left: 28px;
+}
+.billing .button1 {
+  display: inline-block;
+  position: absolute;
+  width: 650px;
+  margin-left: 28px;
+  height: 40px;
+  margin-top: 30px;
+}
+.billing .button1 input {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.billing .button1 p {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 3px;
+  font-size: 14px;
+}
+.billing .button2 {
+  display: inline-block;
+  position: absolute;
+  width: 650px;
+  height: 40px;
+  margin-top: 95px;
+}
+.billing .button2 input {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 28px;
+}
+.billing .button2 p {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 3px;
+  font-size: 14px;
+}
+.billing .button1::after {
+  content: "";
+  top: 45px;
+  position: absolute;
+  width: 650px;
+  height: 1px;
+  background-color: #cac7c7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f0f4f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grey {
+  position: absolute;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 150px;
+  font-size: 12px;
+  color: grey;
+}
+
+.black {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 422px;
+  font-size: 12px;
+}
+
+.payment {
+  display: inline-block;
+  position: absolute;
+  width: 650px;
+  height: 280px;
+  background-color: white;
+  top: 60px;
+  left: 150px;
+  box-shadow: 4px 3px 4px #e9ecf0, 4px -3px 4px #e9ecf0, 4px 3px 4px #e9ecf0, -4px 3px 4px #e9ecf0;
+}
+.payment h1 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-left: 28px;
+}
+.payment .input1 {
+  position: absolute;
+  width: 650px;
+  height: 100px;
+  margin-top: 40px;
+}
+.payment label {
+  font-size: 12px;
+  color: #a09e9e;
+  margin-left: 28px;
+}
+.payment input {
+  margin-top: 8px;
+  margin-left: 28px;
+  width: 570px;
+  height: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid #dfdcdc;
+  border-radius: 3px;
+}
+.payment .input2 {
+  position: absolute;
+  width: 650px;
+  height: 80px;
+  margin-top: 120px;
+}
+.payment .input2 label {
+  font-size: 12px;
+  color: #a09e9e;
+  margin-left: 28px;
+}
+.payment .input2 input {
+  width: 300px;
+  height: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid #dfdcdc;
+  border-radius: 3px;
+}
+.payment .input3 {
+  position: absolute;
+  width: 170px;
+  margin-top: 120px;
+  margin-left: 345px;
+  height: 80px;
+}
+.payment .input3 label {
+  font-size: 12px;
+  color: #a09e9e;
+}
+.payment .input3 input {
+  width: 90px;
+  height: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid #dfdcdc;
+  border-radius: 3px;
+}
+.payment .input4 {
+  position: absolute;
+  width: 90px;
+  height: 80px;
+  margin-left: 480px;
+  margin-top: 120px;
+}
+.payment .input4 label {
+  font-size: 12px;
+  color: #a09e9e;
+  margin-left: 28px;
+}
+.payment .input4 input {
+  width: 90px;
+  height: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  border: 2px solid #dfdcdc;
+  border-radius: 3px;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  top: 605px;
+  left: 150px;
+  text-decoration: none;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: blue;
+}
+
+a:hover::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  width: 100px;
+  height: 1px;
+  color: blue;
+}
+
+button {
+  position: absolute;
+  top: 590px;
+  left: 680px;
+  width: 120px;
+  height: 34px;
+  font-size: 15px;
+  padding: 7px;
+  font-size: 13px;
+  color: white;
+  background-color: #3676ee;
+  border: 1px solid #3676ee;
+  border-radius: 3px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+  border: 1px solid blue;
+  transition: 0.4s ease all;
+}
+
+/*# sourceMappingURL=style.css.map */

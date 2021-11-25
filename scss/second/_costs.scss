@@ -1,0 +1,91 @@
+.costs{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    top: 60px;
+    left: 830px;
+    box-shadow: 4px  3px 8px rgb(233, 236, 240),
+                4px -3px 8px rgb(233, 236, 240),
+                4px  3px 8px rgb(233, 236, 240),
+                -4px  3px 8px rgb(233, 236, 240);
+        .pic{
+            display: inline-block;
+            position: absolute;
+            width: 45px;
+            height: 40px;
+            border: 1px solid rgb(218, 215, 215);
+            margin: 28px;
+            border-radius: 4px;
+        }
+        img{
+            width: 30px;
+            height: 25px;
+            padding: 7px;
+        }
+        .two{
+            position: absolute;
+            width: 19px;
+            height: 19px;
+            border-radius: 50%;
+            background-color: blue;
+            margin-top: 20px;
+            left: 65px;
+                p{
+                    color: white;
+                    font-size: 10px;
+                    padding: 5px;
+                    font-weight: bold;
+                }
+        }
+        .chocolate{
+            position: absolute;
+            margin: {
+                top: 42px;
+                left: 95px;
+            }
+            font-size: 15px;
+        }
+        .pic::after{
+            content: "";
+            position: absolute;
+            width: 340px;
+            height: 1px;
+            background-color: rgb(224, 219, 219);
+            top: 60px;
+            left: 0px;
+        }
+        .subtotal{
+            position:absolute;
+            margin: {
+                top: 110px;
+                left: 28px;
+            }
+            font-size: 13px;
+        }
+        .shipping{
+            position: absolute;
+            margin: {
+                top: 140px;
+                left: 28px;
+            }
+            font-size: 13px;
+        }
+        .shipping::after{
+            content: "";
+            position: absolute;
+            width: 340px;
+            height: 1px;
+            background-color: rgb(224, 219, 219);
+            top: 40px;
+            left: 0px;
+        }
+        .total{
+            position: absolute;
+            margin: {
+                top: 200px;
+                left: 28px;
+            }
+            font-size: 15px;
+        }
+}

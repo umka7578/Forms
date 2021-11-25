@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <p class="grey"><b>Cart - Customer Information - Shiping Method - </b></p>
+    <p class="black"><b>Payment Method</b></p>
+
+    <div class="payment">
+        <h1>Payment information</h1>
+        <div class="input1">
+            <label for="card"><b> CARD NUMBER</b> </label><br>
+            <input type="number" id="card" placeholder="**** **** **** ****">
+        </div>
+
+        <div class="input2">
+            <label for="name"><b> CARD HOLDER</b> </label><br>
+            <input type="text" id="name" placeholder="Michael Jordan">
+        </div>
+
+        <div class="input3">
+            <label for="number"><b> EXR DATE</b> </label><br>
+            <input type="number" id="number" placeholder="03/19">
+        </div>
+
+        <div class="input4">
+            <label for="son"><b> CVC</b> </label><br>
+            <input type="number" id="son" placeholder="***">
+        </div>
+     </div>
+
+     <div class="costs">
+        <div class="pic">
+            <img src="./img/order.jpg" alt="order">
+        </div>
+        <div class="two">
+            <p>2</p>
+        </div>
+        <p class="chocolate"><b>Chocolate bar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $2.49 </b></p>
+        <p class="subtotal"><b>Subtotal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $4.98 </b></p>
+        <p class="shipping"><b>Shipping &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $3.00</b></p>
+        <p class="total"><b>Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $7.98</b></p>
+    </div>
+
+    <div class="billing">
+        <h1>Billing address</h1>
+        <div class="button1">
+            <input type="radio" id="radio"  >
+            <p><b>Same as the shipping address</b></p>
+        </div>
+
+        <div class="button2">
+            <input type="radio" id="use" >
+            <p><b>Use a different billing address</b></p>
+        </div>
+    </div>
+    <a href="#">Return to shipping method</a>
+    <button>Complete order</button>
+
+    
+</body>
+</html>
